@@ -1,20 +1,41 @@
 p{
 	color:teal;
-	font-size: 20px;
-	font-family: monospace;
+	font-size: 18px;
+	font-family: monospace, arial;
 }
 
 h1{
+	color: #54836f;
 	font-size: 35px;
-	font-family: monospace;
+	font-family: monospace, arial;
 }
 
 h2{
+	color: #394447;
 	font-weight: normal;
-	font-family: monospace;
+	font-family: monospace, arial;
 }
 
 h3{
+	color: #e95f92;
 	font-weight: normal;
-	font-family: monospace;
+	font-family: monospace, arial;
+}
+
+h4{
+	color: #1a5b58;
+	font-weight: normal;
+	font-family: monospace, arial;
+}
+
+li{
+	color: #394447;
+	font-weight: normal;
+	font-family: monospace, arial;
+}
+
+blockquote{
+	color: #394447;
+	font-weight: normal;
+	font-family: monospace, arial;
 }
