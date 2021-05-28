@@ -8,18 +8,21 @@ h1{
 	color: #54836f;
 	font-size: 35px;
 	font-family: monospace, arial;
+	text-align: center;
 }
 
 h2{
 	color: #394447;
 	font-weight: normal;
 	font-family: monospace, arial;
+	text-align: center;
 }
 
 h3{
 	color: #e95f92;
 	font-weight: normal;
 	font-family: monospace, arial;
+	text-align: center;
 }
 
 h4{
@@ -32,10 +35,12 @@ li{
 	color: #394447;
 	font-weight: normal;
 	font-family: monospace, arial;
+	text-align: center;
 }
 
 blockquote{
 	color: #394447;
 	font-weight: normal;
 	font-family: monospace, arial;
+	text-align: center;
 }
