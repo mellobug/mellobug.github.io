@@ -64,24 +64,21 @@ ul {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 600px 600px 600px;
   width: 100%;
-  max-width: 1200px;
-  margin: 50px auto;
+  max-width: 2000px;
+  margin: 10px auto;
 }
 
 .grid--item {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 600px;
   background-color: transparent;
   color: transparent;
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: 3px ;
+  border: 0px ;
 }
 
 img{
@@ -89,8 +86,31 @@ img{
 }
 
 .grid-picture{
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 600px;
 
 }
 
+a:link {
+  color: teal;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: teal;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
