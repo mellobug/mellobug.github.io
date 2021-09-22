@@ -2,10 +2,12 @@
 
 p{
 	color:teal;
-	font-size: 18px;
+	font-size: 28px;
 	font-family: monospace, arial;
 	font-weight: normal;
 }
+
+
 
 h1{
 	color: #54836f;
@@ -31,7 +33,7 @@ h3{
 }
 
 h4{
-	color: #1a5b58;
+	color: grey;
 	font-weight: normal;
 	font-family: monospace, arial;
 }
@@ -84,7 +86,14 @@ ul {
 img{
 	object-fit: contain;
 }
-
+.sym1{
+	width: 33.33%;
+	float: left;
+}
+.sym2{
+	width: 33.33%;
+	float: right
+}
 .grid-picture{
   width: 600px;
   height: 600px;
@@ -138,4 +147,35 @@ a:active {
 }
 .item{
 	padding: 10px;
+}
+.center{
+	text-align: center;
+	padding: 150px 0;
+}
+.center2{
+	text-align: center;
+	padding: 50px 400px;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	width:33.33%
+	padding: 5px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+div.a {
+	text-align: center;
+	padding: 50px 400px;
+	
 }
