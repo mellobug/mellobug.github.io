@@ -66,7 +66,14 @@ ul {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 600px 600px 600px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  max-width: 2000px;
+  margin: 10px auto;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
   max-width: 2000px;
   margin: 10px auto;
@@ -86,19 +93,10 @@ ul {
 img{
 	object-fit: contain;
 }
-.sym1{
-	width: 33.33%;
-	float: left;
-}
-.sym2{
-	width: 33.33%;
-	float: right
-}
+
 .grid-picture{
   width: 600px;
   height: 600px;
-
-
 }
 
 a:link {
