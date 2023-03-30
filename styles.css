@@ -185,3 +185,15 @@ div.a {
 	padding: 50px 400px;
 	
 }
+
+/* Set default image size */
+#love-bug {
+  width: 35%;
+}
+
+/* Increase image size on smaller screens */
+@media (max-width: 768px) {
+  #love-bug {
+    width: 70%;
+  }
+}
