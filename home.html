@@ -12,6 +12,36 @@ img {align-content: center;}
 	<meta charset="utf-8">
 <title>mello's home</title>
 
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+
+    	.container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+  }
+
+
+        @media screen and (max-width: 768px) {
+ 
+
+            .container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+			#love-bug {
+			max-width: 100%;
+			height: auto;
+
+            #gallery img[src$="emptyblock.png"] {
+				display: none;
+			}
+        }
+    </style>
+
 <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -33,11 +63,11 @@ img {align-content: center;}
 </h3>
 <br><br><br><br>
 <!-- page content -->
-<div style="text-align: center;">
-  <img id="love-bug" src="https://64.media.tumblr.com/3a6c9e39b73b6d7acf6276265d64b7ff/094a7868f8bbe498-cd/s500x750/4d2395d1655e325c728ad77bf0f4db09265d62e6.png" alt="Love Bug">
 
-</div>
 
+<div class="container">
+		<img id="love-bug" src="https://64.media.tumblr.com/3a6c9e39b73b6d7acf6276265d64b7ff/094a7868f8bbe498-cd/s500x750/4d2395d1655e325c728ad77bf0f4db09265d62e6.png" alt="Love Bug">
+	</div>
 
 
 
