@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+<title>mello's portfolio</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <br><br><br><br><br>
+  <!-- Header -->
+<h1> &#127806;matt, mello, chill bug&#128027;</h1>
+
+<h3>independent animator and designer </h3 >
+<br>
+<!-- you're beautiful ; ) -->
+<!-- menu -->
+
+<h3>
+  <a href="home.html">home</a>
+  <strong><a href="portfolio.html">portfolio</a></strong>
+  <a href="about.html">about</a>
+</h3>
+
+<br> 
+
+<div id="gallery">
+  <div class="gallery-item"><img src="img/emptyblock.png"></div>
+  <div class="gallery-item"><img src="img/emptyblock.png"></div>
+  <div class="gallery-item"><a href="https://mellobug.github.io/animation.html"><img src="img/icon_animation2.webp"></a></div>
+  <div class="gallery-item"><a href="https://mellobug.github.io/figure-drawing.html"><img src="img/icon_figuredrawing2.webp"></a></div>
+  <div class="gallery-item"><a href="https://mellobug.github.io/illustration.html"><img src="img/icon_illustration2.webp"></a></div>
+  <div class="gallery-item"><img src="img/flower3.gif"></div>
+  <div class="gallery-item"><a href="https://mellobug.github.io/character-design.html"><img src="img/icon_characterdesign2.webp"></a></div>
+  <div class="gallery-item"><a href="https://mellobug.github.io/gifs.html"><img src="img/icon_gifs2.webp"></a></div>
+</div>

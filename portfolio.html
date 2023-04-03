@@ -26,30 +26,33 @@
 	<strong><a href="portfolio.html">portfolio</a></strong>
 	<a href="about.html">about</a>
 </h3>
-
 <br>
-
-<!-- page content -->
 
  <style type="text/css">
 
- 	#gallery {
-   line-height:0;
-   -webkit-column-count:5 /* split it into 5 columns */
-   -webkit-column-gap:5px; /* give it a 5px gap between columns */
-   -moz-column-count:5;
-   -moz-column-gap:5px;
-   column-count:5;
-   column-gap:5px;
-}
+	#gallery {
+		line-height:0;
+		-webkit-column-count:5 /* split it into 5 columns */
+		-webkit-column-gap:5px; /* give it a 5px gap between columns */
+		-moz-column-count:5;
+		-moz-column-gap:5px;
+		column-count:5;
+		column-gap:5px;
+	}
 
-#gallery img {
-   width: 100% !important;
-   height: auto !important;
-   margin-bottom:5px; /* to match column gap */
-}
+	#gallery img {
+		width: 100% !important;
+		height: auto !important;
+		margin-bottom:5px; /* to match column gap */
+	}
 
-  </style>
+	@media screen and (max-width: 768px) {
+		#gallery img {
+			width: 50% !important;
+		}
+	}
+
+</style>
 
 <div id="gallery">
  <img src="img/emptyblock.png">
