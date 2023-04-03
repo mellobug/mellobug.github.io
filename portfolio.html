@@ -1,96 +1,76 @@
 <!doctype html>
-
 <html lang="en">
-
 <head>
+    <meta charset="utf-8">
+    <title>mello's portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+        #gallery {
+            line-height: 0;
+            -webkit-column-count: 5; /* split it into 5 columns */
+            -webkit-column-gap: 5px; /* give it a 5px gap between columns */
+            -moz-column-count: 5;
+            -moz-column-gap: 5px;
+            column-count: 5;
+            column-gap: 5px;
+        }
 
-	<meta charset="utf-8">
-<title>mello's portfolio</title>
+        #gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 5px; /* to match column gap */
 
-<link rel="stylesheet" href="styles.css">
+        }
 
+        @media screen and (max-width: 768px) {
+            #gallery {
+                -webkit-column-count: 2; /* split it into 2 columns */
+                -moz-column-count: 2;
+                column-count: 2;
+                column-gap: 20px;
+            }
+
+            #gallery img {
+                width: 100%;
+                height: auto;
+            }
+
+            #gallery img[src$="emptyblock.png"] {
+				display: none;
+			}
+        }
+    </style>
 </head>
-
 <body>
-	<br><br><br><br><br>
-	<!-- Header -->
-<h1> &#127806;matt, mello, chill bug&#128027;</h1>
+    <br><br><br><br><br>
+    <!-- Header -->
+    <h1> &#127806;matt, mello, chill bug&#128027;</h1>
+    <h3>independent animator and designer </h3 >
+    <br>
+    <!-- you're beautiful ; ) -->
+    <!-- menu -->
+    <h3>
+        <a href="home.html">home</a>
+        <strong><a href="portfolio.html">portfolio</a></strong>
+        <a href="about.html">about</a>
+    </h3>
+    <br>
 
-<h3>independent animator and designer </h3 >
-<br>
-<!-- you're beautiful ; ) -->
-<!-- menu -->
+    <div id="gallery">
+        <img src="img/emptyblock.png">
+        <img src="img/emptyblock.png">
 
-<h3>
-	<a href="home.html">home</a>
-	<strong><a href="portfolio.html">portfolio</a></strong>
-	<a href="about.html">about</a>
-</h3>
-<br>
+        <a href="https://mellobug.github.io/animation.html"><img src="img/icon_animation2.webp"></a>
 
- <style type="text/css">
+        <a href="https://mellobug.github.io/figure-drawing.html"><img src="img/icon_figuredrawing2.webp"></a>
 
-	#gallery {
-		line-height:0;
-		-webkit-column-count:5 /* split it into 5 columns */
-		-webkit-column-gap:5px; /* give it a 5px gap between columns */
-		-moz-column-count:5;
-		-moz-column-gap:5px;
-		column-count:5;
-		column-gap:5px;
-	}
+        <a href="https://mellobug.github.io/illustration.html"><img src="img/icon_illustration2.webp"></a>
 
-	#gallery img {
-		width: 100% !important;
-		height: auto !important;
-		margin-bottom:5px; /* to match column gap */
-	}
+        <img src="img/flower3.gif">
 
-	@media screen and (max-width: 768px) {
-		#gallery img {
-			width: 50% !important;
-		}
-	}
-
-</style>
-
-<div id="gallery">
- <img src="img/emptyblock.png">
- <img src="img/emptyblock.png">
-
- <a href="https://mellobug.github.io/animation.html"><img src="img/icon_animation2.webp"></a>
-
- <a href="https://mellobug.github.io/figure-drawing.html"><img src="img/icon_figuredrawing2.webp"></a>
-
- <a href="https://mellobug.github.io/illustration.html"><img src="img/icon_illustration2.webp"></a>
-
-<img src="img/flower3.gif">
-
- <a href="https://mellobug.github.io/character-design.html"><img src="img/icon_characterdesign2.webp"></a>
- <a href="https://mellobug.github.io/gifs.html"><img src="img/icon_gifs2.webp"></a>
-
-
-
+        <a href="https://mellobug.github.io/character-design.html"><img src="img/icon_characterdesign2.webp"></a>
+        <a href="https://mellobug.github.io/gifs.html"><img src="img/icon_gifs2.webp"></a>
+    </div>
 </body>
-
-
 </html>
-<!--
-
-<div style="text-align: center;">
-<div class="wrapper2">
-
-	<div class="item"><a href="https://mellobug.github.io/animation.html">
-	<img src="img/animation_lossy.gif" width="40%;"></a></div>
-
-	<div class="item"><a href="https://mellobug.github.io/character-design.html">
-	<img src="img/characterdesign_lossy.gif" width="40%;"></a></div>
-
-	<div class="item"><a href="https://mellobug.github.io/illustration.html">
-	<img src="img/illustration2_lossy.gif" width="40%;"></a></div>
-
-	<div class="item"><a href="https://mellobug.github.io/gifs.html">
-	<img src="img/gifs_lossy.gif" width="40%;"></a></div>
-</a></p></div>
--->
-
