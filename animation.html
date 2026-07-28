@@ -5,145 +5,94 @@
   <meta charset="utf-8">
   <title>mello's home</title>
   <link rel="stylesheet" href="styles.css">
-  <style> 
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-      grid-gap: 20px;
+
+  <style>
+    .content {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      text-align: center;
     }
-    .grid-item {
-      background-color: none;
-      border: 0px solid #ccc;
-      padding: 20px;
-    }
-    .video {
+
+    .video-wrapper {
       position: relative;
-      overflow: hidden;
+      width: 100%;
       padding-top: 56.25%;
+      margin: 0 auto;
     }
-    .video iframe {
+
+    .video-wrapper iframe {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
+      border: none;
     }
+
     .description {
-      margin-top: 10px;
+      margin-top: 25px;
     }
-    .description h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
+
+    .description h3 {
+      margin: 0;
     }
-    .description p {
-      font-size: 16px;
-      line-height: 1.5;
-      color: teal;
+
+    @media (max-width: 768px) {
+      .content {
+        padding: 40px 15px;
+      }
     }
   </style>
 </head>
-<body style="background-color: #1d1d1d">
-  <br><br><br><br><br>
-  <!-- Header -->
-  <h1> &#127806;matt, mello, chill bug&#128027;</h1>
-  <h3>independent animator and designer </h3 >
-  <br>
-  <!-- you're beautiful ; ) -->
-  <!-- menu -->
-  <h3>
-    <a href="home.html">home</a>
-    <strong><a href="portfolio.html">portfolio</a></strong>
-    <a href="about.html">about</a>
-  </h3>
-  <br>
-  <h2>
-    <a href="animation.html"><strong><em>animation</em></strong></a>&nbsp
-    <a href="character-design.html">character design</a>&nbsp
-    <a href="illustration.html">illustration</a>&nbsp
-    <a href="figure-drawing.html">figure drawing</a>&nbsp
-    <a href="gifs.html">gifs</a>
-  </h2>
-  <br><br><br>
-  <div class="grid-container">
-    <div class="grid-item">
-      <div class="video">
-        <iframe src="https://player.vimeo.com/video/710989480?h=d900c84f17&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div class="description">
-        <h3>An Ordinary Penguin Broadcast (2022)</h3>
-        <br>
-        <p>Inspired by grade school memories, subliminal messaging in media, and creepypasta culture of the early 2000s this official broadcast documents a computer game that's been left idle for far too long</p>
-      </div>
-    </div>
-    <div class="grid-item">
-      <div class="video">
-        <iframe src="https://player.vimeo.com/video/390526172?h=0c4c3a6263&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allowfullscreen></iframe>
-      </div>
-    
 
-    <div class="description">
-      <h3>We are Alone (2020)</h3>
-      <br>
-      <p>What does a teardrop feel after it's left the eye?</p>
-      <br>
-      <h3>Festivals:</h3><h4> Ottawa International Animation Festival: RISD Retrospective, Sweaty Eyeballs, Icona, LTUE, Across the Globe</h4>
-    </div>
+<body style="background-color: #1d1d1d">
+
+<br><br><br><br><br>
+
+<!-- Header -->
+<h1> &#127806;matt, mello, chill bug&#128027;</h1>
+<h3>independent animator and designer </h3>
+
+<br>
+
+<!-- Menu -->
+<h3>
+  <a href="home.html">home</a>
+  <strong><a href="portfolio.html">portfolio</a></strong>
+  <a href="about.html">about</a>
+</h3>
+
+<br>
+
+<h2>
+  <a href="animation.html"><strong><em>animation</em></strong></a>&nbsp
+  <a href="character-design.html">character design</a>&nbsp
+  <a href="illustration.html">illustration</a>&nbsp
+  <a href="figure-drawing.html">figure drawing</a>&nbsp
+  <a href="gifs.html">gifs</a>
+</h2>
+
+<br><br><br>
+
+<div class="content">
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/E16-h2ad6UY?si=x0X6TOprzrHZ3t2N"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
   </div>
-  <div class="grid-item">
-    <div class="video">
-     <iframe src="https://player.vimeo.com/video/571678498?h=b2975db856&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="description">
-      <h3>Mummy Loves You (2018-2021)</h3>
-      <br>
-      <p>A teardrop has to go to school, but he just can't manage to leave.</p>
-    </div>
-  </div>
-  <div class="grid-item">
-    <div class="video">
-     <iframe src="https://player.vimeo.com/video/560564572?h=cbf614707d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="description">
-      <h3>40mm (2018-2021)</h3>
-      <br>
-      <p>A ping pong ball journeys through an experimental landscape.</p>
-      <br>
-      <h3>Festivals:</h3><h4>Sweaty Eyeballs, National Short Film, Lift Off, Canlandiranlar </h4>
-    </div>
-  </div>
-   <div class="grid-item">
-    <div class="video">
-     <iframe src="https://player.vimeo.com/video/277895790?h=14984c0e4a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="description">
-      <h3>Tasty Beauty (2018)</h3>
-      <br>
-      <p>"What would you like today?.</p>
-      <br>
-	<h3>Festivals:</h3><h4>Rhode Island International Film Festival, Anilogue International Animation Festival </h4>
-    </div>
-  </div>
-  <div class="grid-item">
-    <div class="video">
-     <iframe src="https://player.vimeo.com/video/290096420?h=58ff1b3228&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="description">
-     <h3>They're Into Feet (2018)</h3>
-     <br>
-      <p>A 24-hour animation experiment about a bird with preferences.</p>
-    </div>
-  </div>
- 
-  <div class="grid-item">
-    <div class="video">
-  	<iframe src="https://player.vimeo.com/video/241952469?h=9ae081e180&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="description">
-    <h3>Truly Special (2017)</h3>
-    <br>
-    <p>Advertising at its finest.</p>
-    </div>
+
+  <div class="description">
+    <h3>Demo Reel 2025</h3>
   </div>
 
 </div>
+
 </body>
+</html>
